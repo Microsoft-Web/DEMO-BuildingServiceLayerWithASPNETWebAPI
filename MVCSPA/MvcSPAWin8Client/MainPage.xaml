@@ -16,10 +16,10 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal">
-            <Button x:Name="formBasedLoginButton" Content="Form based Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" Width="328" FontSize="36" Click="formBasedLogin_Click"/>
-            <Button x:Name="facebookLoginButton" Content="Facebook Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" Width="328" FontSize="36" Click="facebookLogin_Click"/>
-            <Button x:Name="refreshButton" Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" Width="328" FontSize="36" Click="refreshButton_Click"/>
-            <Button x:Name="addTodoListButton" Content="Add Todo List" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" Width="328" FontSize="36" Click="addTodoList_Click"/>
+            <Button x:Name="formBasedLoginButton" Content="Form based Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" FontSize="36" Click="formBasedLogin_Click"/>
+            <Button x:Name="facebookLoginButton" Content="Facebook Login" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" FontSize="36" Click="facebookLogin_Click"/>
+            <Button x:Name="refreshButton" Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96"  FontSize="36" Click="refreshButton_Click"/>
+            <Button x:Name="addTodoListButton" Content="Add Todo List" HorizontalAlignment="Left" VerticalAlignment="Top" Height="96" FontSize="36" Click="addTodoList_Click"/>
         </StackPanel>
 
         <!--Height="500" MaxHeight="500" MinHeight="500" VerticalAlignment="Top" VerticalContentAlignment="Top"-->
@@ -60,7 +60,7 @@
         <!--local:My-->
 
         <StackPanel Grid.Row="2">
-            <TextBox x:Name="messageBlock" Text="{Binding Messages, Mode=TwoWay}" Margin="20,20,20,20" Height="100"  />
+            <TextBox x:Name="messageBlock" Text="{Binding Messages, Mode=TwoWay}" Margin="20,20,20,20" Height="100" FontSize="24"  />
         </StackPanel>
         
         <local:FormLogin
