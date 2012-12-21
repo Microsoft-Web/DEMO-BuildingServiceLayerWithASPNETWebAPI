@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Demo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
+  <Id>BuildingServiceLayerWithASPNETWebAPI</Id>
+  <Author>
+    <Name>Jon Galloway</Name>
+    <Blog>http://weblogs.asp.net/jgalloway</Blog>
+    <Email>jon.galloway@microsoft.com</Email>
+  </Author>
+  <Description>This demo shows how to build a service layer using ASP.NET Web API.</Description>
+  <Document ConversionType="Html"></Document>
+  <Title>Building a Service Layer With ASP.NET Web API</Title>
+  <Version>1.0.0</Version>
+  <Source>.\MVCSPA</Source>
+  <DependencyChecker></DependencyChecker>
+  <CustomProperties>
+    <Property Name="GitHubRepository" Value="https://github.com/Microsoft-Web/DEMO-BuildingServiceLayerWithASPNETWebAPI" />
+  </CustomProperties>
+</Demo>
