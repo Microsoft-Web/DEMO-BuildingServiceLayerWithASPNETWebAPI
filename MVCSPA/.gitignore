@@ -1,9 +1,0 @@
-bin/
-obj/
-*.user
-*.suo
-AppPackages/
-packages/
-_ReSharper*
-App_Data/
-*.pubxml
